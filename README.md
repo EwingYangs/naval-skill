@@ -26,14 +26,14 @@ After install, type `/naval` in Claude Code.
 
 One skill (`/naval`) with 6 sub-sections, auto-routed by intent:
 
-| Section | What it does |
-|---|---|
-| **Wealth** | Specific knowledge, leverage, judgment, accountability |
-| **Happiness** | Desire, meditation, acceptance, inner peace |
-| **Decision** | Reversibility, long-term games, say no, clear thinking |
-| **Leverage** | Code, media, capital, labor — force multipliers |
-| **Reading** | Curiosity-driven learning, first principles, foundations |
-| **Health** | Body as foundation, daily habits, sleep, meditation |
+| Section | What it does | References |
+|---|---|---|
+| **Wealth** | Specific knowledge, leverage, judgment, accountability | wealth_and_specific_knowledge, leverage_and_scale, technology_and_startups |
+| **Happiness** | Desire, meditation, acceptance, inner peace | happiness_and_peace, philosophy_and_meaning, relationships_and_trust |
+| **Decision** | Reversibility, long-term games, say no, clear thinking | decision_and_judgment, philosophy_and_meaning, relationships_and_trust |
+| **Leverage** | Code, media, capital, labor — force multipliers | leverage_and_scale, wealth_and_specific_knowledge, technology_and_startups |
+| **Reading** | Curiosity-driven learning, first principles, foundations | learning_and_reading, philosophy_and_meaning |
+| **Health** | Body as foundation, daily habits, sleep, meditation | health_and_fitness, happiness_and_peace |
 
 Sections cross-reference each other. For example:
 - Wealth detects happiness issue → switches to Happiness
