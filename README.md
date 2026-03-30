@@ -1,6 +1,6 @@
 # navalskill
 
-Naval Ravikant wisdom toolkit. Built from 2,347 tweets (2010-2026), distilled into knowledge atoms, and packaged as a Claude Code skill.
+Naval Ravikant wisdom toolkit. Built from 2,347 tweets (2010-2026), distilled into knowledge atoms, and packaged as an AI agent skill.
 
 **Inspired by [dbskill](https://github.com/dontbesilent2025/dbskill) — same architecture, different philosophy.**
 
@@ -15,7 +15,7 @@ npx skills add EwingYangs/navalskill
 Or manually:
 
 ```bash
-git clone https://github.com/EwingYangs/navalskill.git /tmp/navalskill && cp -r /tmp/navalskill/naval ~/.claude/skills/ && rm -rf /tmp/navalskill
+git clone https://github.com/EwingYangs/navalskill.git /tmp/navalskill && cp -r /tmp/navalskill ~/.claude/skills/navalskill && rm -rf /tmp/navalskill
 ```
 
 After install, type `/naval` in Claude Code.
@@ -45,7 +45,7 @@ Sections cross-reference each other. For example:
 ## Skill Structure
 
 ```
-naval/                              ← installed to ~/.claude/skills/naval/
+navalskill/
 ├── SKILL.md                        # Router + 6 sub-sections
 ├── references/                     # Knowledge packs (by topic, cross-section)
 │   ├── wealth_and_specific_knowledge.md
